@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/BlankFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.mobilkijava_proper.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_BlankFragment"
+            app:destination="@id/BlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.mobilkijava_proper.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_BlankFragment"
+            app:destination="@id/BlankFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/BlankFragment"
+        android:name="com.example.mobilkijava_proper.BlankFragment"
+        android:label="@string/blank_fragment"
+        tools:layout="@layout/fragment_blank">
+
+        <action
+            android:id="@+id/action_BlankFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_BlankFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_BlankFragment_to_About"
+            app:destination="@id/About" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/About"
+        android:name="com.example.mobilkijava_proper.About"
+        android:label="@string/aboutfragment"
+        tools:layout="@layout/fragment_about">
+
+        <action
+            android:id="@+id/action_AboutToBlank"
+            app:destination="@id/BlankFragment" />
+
+    </fragment>
+</navigation>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MobilkiJava_proper</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Kalkulator prosty</string>
+    <string name="second_fragment_label">Kalkulator zaawansowany</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="_0">0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="blank_fragment">Main Screen</string>
+    <string name="ViewText">Main Screen</string>
+
+    <string name="aboutfragment">Informacje:</string>
+
+    <string name="square_root_symbol">\u221a</string>
+    <string name="xtopoweroftwo">X<sup>2</sup></string>
+    <string name="xtopowerofy">X<sup>y</sup></string>
+    <string name="naturallog">ln</string>
+    <string name="logwithbase10">log</string>
+    <string name="divide">\u00F7</string>
+    <string name="multiply">\u00D7</string>
+    <string name="plusminus">\u00B1</string>
+    <string name="clearcleare">C/CE</string>
+    <string name="clearall">CA</string>
+    <string name="sinusfunction">SIN</string>
+    <string name="cosinusfunction">COS</string>
+    <string name="tangensfunction">TAN</string>
+    <string name="percent">\u0025</string>
+    <string name="equals">=</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="coma">,</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+
+    <string name="message">\n\nAplikacja napisana przez \n\n
+    Daniela Kozarskiego</string>
+
+
+
+
+</resources>
